@@ -22,6 +22,19 @@ Beklenen Cikti:
         int sayi2= scan.nextInt();
 
         int ebob=0;
+        int ekok=0;
+
+
+        for (int i = 1; i <sayi1 ; i++) {
+            if(sayi1%i==0 && sayi2%i==0){
+                ebob=i;
+            }
+
+        }
+        System.out.println("ebob: " +ebob);
+
+        ekok=(sayi1*sayi2)/ebob;
+        System.out.println("ekok : " + ekok);
 
 
     }
