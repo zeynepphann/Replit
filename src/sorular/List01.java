@@ -13,7 +13,7 @@ Learning java is easy
 
 output:
 
-maximum occurring character is : af
+maximum occurring character is : a
      */
     public static void main(String[] args) {
 
